@@ -1,0 +1,80 @@
+@media screen and (min-width: 1025px) {
+    body {
+        font-family: "Cascadia Mono";
+        margin: 0px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+        line-height: 48px;
+        text-align: center;
+        font-weight: 800;
+        color: #514949;
+        margin-bottom: 36px;
+    }
+
+    .hero-container {
+        height: 800px;
+        background-image: url("Images/hero-bg.svg");
+        background-position: center;
+    }
+
+    .hero-image {
+        display: flex;
+        justify-content: center;
+        padding: 69px;
+    }
+
+    .hero {
+        padding: 10px;
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hero p {
+        font-size: 15px;
+        line-height: 23px;
+        color: #514949;
+        opacity: 0.9;
+    }
+
+    a {
+        color: #E7332B;
+        text-decoration: none;
+    }
+
+    .button-div {
+        margin-top: 75px;
+    }
+    
+    .button {
+        padding: 11px 28px;
+        border: 1px solid #E7332B;
+        font-family: "Cascadia Mono";
+        height: 48px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .button-red {
+        background-color: #E7332B;
+        color: white;
+        margin-right: 24px;
+    }
+
+    .button-red:hover {
+        background-color: white;
+        color: #E7332B;
+    }
+
+    .button-white {
+        background-color: white;
+        color: #E7332B;
+    }
+
+    .button-white:hover {
+        background-color: #E7332B;
+        color: white;
+    }
+}
