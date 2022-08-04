@@ -1,6 +1,6 @@
 @media screen and (max-width: 1440px) {
     body {
-        font-family: "Cascadia Mono";
+        font-family: "Comfortaa";
         margin: 0px;
     }
 
@@ -51,7 +51,7 @@
     .button {
         padding: 11px 28px;
         border: 1px solid #E7332B;
-        font-family: "Cascadia Mono";
+        font-family: "Comfortaa";
         height: 48px;
         transition-duration: 0.4s;
         cursor: pointer;
@@ -127,12 +127,15 @@
 
     .button-div {
         margin-top: 75px;
+        display: grid;
+        grid-template-rows: auto auto;
+        row-gap: 30px;
     }
     
     .button {
         padding: 11px 28px;
         border: 1px solid #E7332B;
-        font-family: "Cascadia Mono";
+        font-family: "Comfortaa";
         height: 48px;
         transition-duration: 0.4s;
         cursor: pointer;
@@ -141,7 +144,7 @@
     .button-red {
         background-color: #E7332B;
         color: white;
-        margin-right: 24px;
+        grid-row: 1;
     }
 
     .button-red:hover {
@@ -152,6 +155,7 @@
     .button-white {
         background-color: white;
         color: #E7332B;
+        grid-row: 2;
     }
 
     .button-white:hover {
